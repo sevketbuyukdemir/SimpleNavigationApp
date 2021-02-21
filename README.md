@@ -1,4 +1,4 @@
-# 4435 – Project 2 – Simple Navigation App
+# COP4435 – Project 2 – Simple Navigation App
 
 In This Project, You’ll Create A Simple Navigation App Using Google Maps. Your Application Must Include 2 Activities (1 – MainActiviy, 2 – Navigation Activiy)
 When You Run The Application, MainActivity Will Be Executed. In This Activity, You’ll Have 2 Inputs and 1 Button.
