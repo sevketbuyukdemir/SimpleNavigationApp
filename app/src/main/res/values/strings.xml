@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">PRJ_2_1505005</string>
+    <string name="title_activity_navigation">Map</string>
+    <!-- Main Activity Strings -->
+    <!-- Main Activity View Strings -->
+    <string name="permission_granted_toast_message">Permissions are granted!! Thank you!!</string>
+    <string name="edt_starting_address">Starting Address: </string>
+    <string name="edt_destination_address">Destination Address: </string>
+    <string name="navigation_button">NAVIGATION</string>
+    <string name="clear_addresses_button">CLEAR ADDRESSES</string>
+    <!-- Main Activity ProgressDialog Strings -->
+    <string name="progress_dialog_address_find">Searching addresses..</string>
+    <!-- Main Activity ErrorDialog Strings -->
+    <string name="show_error_dialog_title">Error</string>
+    <string name="show_error_dialog_positive_button_message">OK</string>
+    <string name="error_message_strings_null">Please enter addresses.</string>
+    <string name="error_message_addresses_null">Addresses can not be equal to null string.</string>
+    <string name="error_message_bundle_error">Addresses could not be retrieved from the Activity.</string>
+    <string name="error_message_connection_fail">Connection fail. Please open internet connection.</string>
+    <!-- DirectionsRetriever Strings -->
+    <!-- DirectionsRetriever ProgressDialog Strings -->
+    <string name="directions_retriever_progress_dialog_title">Directions</string>
+    <string name="directions_retriever_progress_dialog_message">Loading</string>
+    <!-- Navigation Activity Strings -->
+    <!-- Navigation Fragment Strings -->
+    <string name="navigation_fragment_title">MAP</string>
+    <!-- Direction Fragment Strings -->
+    <string name="direction_fragment_title">DIRECTIONS</string>
+    <!-- Direction Fragment Route Strings -->
+    <string name="first_object_of_legs_distance_text">Total Distance: </string>
+    <string name="first_object_of_legs_duration_text">Total Duration: </string>
+    <string name="first_object_of_legs_start_address">Starting address: </string>
+    <string name="first_object_of_legs_end_address">Destination address: </string>
+    <string name="first_object_of_legs_steps_title_text">Steps : </string>
+    <!-- Direction Fragment Steps Item Strings -->
+    <string name="current_step_title">Step</string>
+    <string name="current_step_empty_warning">Empty</string>
+    <string name="current_step_distance_text">Distance: </string>
+    <string name="current_step_duration_text">Duration: </string>
+    <string name="current_step_starting_text">Starting point: </string>
+    <string name="current_step_destination_text">Destination point: </string>
+    <string name="current_step_maneuver_text">Maneuver: </string>
+</resources>

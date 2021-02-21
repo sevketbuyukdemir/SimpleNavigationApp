@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:text="@string/first_object_of_legs_distance_text"
+            android:textColor="@color/first_object_of_legs_text_color"
+            android:textSize="16sp"
+            android:gravity="right"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/first_object_of_legs_distance_text"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_weight="2"
+            android:textColor="@color/first_object_of_legs_value_color"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:text="@string/first_object_of_legs_duration_text"
+            android:textColor="@color/first_object_of_legs_text_color"
+            android:textSize="16sp"
+            android:gravity="right"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/first_object_of_legs_duration_text"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_weight="2"
+            android:textColor="@color/first_object_of_legs_value_color"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:text="@string/first_object_of_legs_start_address"
+            android:textColor="@color/first_object_of_legs_text_color"
+            android:textSize="16sp"
+            android:gravity="right"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/first_object_of_legs_start_address"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_weight="2"
+            android:textColor="@color/first_object_of_legs_value_color"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:text="@string/first_object_of_legs_end_address"
+            android:textColor="@color/first_object_of_legs_text_color"
+            android:textSize="16sp"
+            android:gravity="right"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/first_object_of_legs_end_address"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_weight="2"
+            android:textColor="@color/first_object_of_legs_value_color"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:text="@string/first_object_of_legs_steps_title_text"
+            android:textColor="@color/first_object_of_legs_text_color"
+            android:textSize="16sp"
+            android:gravity="right"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/first_object_of_legs_steps_title_text"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_weight="2"
+            android:textColor="@color/first_object_of_legs_value_color"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/steps_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
